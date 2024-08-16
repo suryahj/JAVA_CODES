@@ -4,6 +4,10 @@ class firstclass
 {
     int var1;
     String var2;
+    public firstclass(int var1, String var2) {
+        this.var1 = var1;
+        this.var2 = var2;
+    }
 }
 
 
@@ -16,9 +20,9 @@ public class First
         arr= new firstclass[n];
         for (int i=0;i<arr.length;i++)
         {
-            arr[i] = new firstclass();
-            arr[i].var1=33;
-            arr[i].var2="ddbsdj";
+            arr[i] = new firstclass(33,"vvhgv");
+            // arr[i].var1=33;
+            // arr[i].var2="ddbsdj";
         }
         for (int i=0;i<arr.length;i++)
         {
